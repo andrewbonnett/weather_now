@@ -1,0 +1,48 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: white;
+    border-top: solid .5px #E6E6E6
+  }
+
+.container {
+  width: 680px;
+  margin-bottom: 100px;
+}
+
+.container2 {
+    width: auto;
+    padding: 0 15px;
+}
+
+.container3 {
+    background-color: #007bff;
+    color: white;
+    width: auto;
+    padding: 15px 15px;
+}
+
+.col {
+  margin:auto;
+  border-bottom: gray;
+  text-align: center;
+}
+
+.row-border {
+  border-bottom:1px solid #ccc;
+}
+
+.col-6 {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}

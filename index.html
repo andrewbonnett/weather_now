@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>WeatherNow</title>
+  <link rel="stylesheet" href="https://use.typekit.net/wvd3gie.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container3">
+    <h1>WeatherNow</h1>
+  </div>
+  <br>
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Enter a U.S. City</label>
+            <input id="weatherInput" type="text"></input><br/>
+            <button id="weatherSubmit" type="submit" class="btn btn-primary" style="width: 100%;">Get Weather Now</button>
+            <!-- input id="weatherSubmit" type="submit" value="Get WeatherNow"></input -->
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <h1><div id="nameAndCountry"></div></h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-3 center">
+        <div id="sunrise"></div>
+      </div>
+      <div class="col-6">
+        <div id="coordinates"></div>
+      </div>
+      <div class="col-3 center">
+        <div id="sunset"></div>
+      </div>
+    </div>
+
+    <div class="row row-cols-4 row-border">
+      <div class="col">
+        <div id="icon"></div>
+      </div>
+      <div class="col">
+        <h2><div id="temp"></div></h2>
+      </div>
+      <div class="col">
+        <h2><div id="high"></div></h2>
+      </div>
+      <div class="col">
+        <h2><div id="low"></div></h2>
+      </div>
+    </div>
+
+    <div class="row row-cols-4">
+      <div class="col">
+        <div id="description"></div>
+      </div>
+      <div class="col">
+        <div id="text1"></div>
+      </div>
+      <div class="col">
+        <div id="text2"></div>
+      </div>
+      <div class="col">
+        <div id="text3"></div>
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="row">
+      <div class="col">
+        <h1><div id="text4"></div></h1>
+      </div>
+    </div>
+
+    <div id="forecastResults">
+  	</div>
+
+  </div> <!-- end of container -->
+
+    <footer class="footer">
+      <div class="container2">
+        <span class="text-muted">Copyright Drew Bonnett 2020.
+          Please visit <a href="https://github.com/BYU-CS-260-Winter-2020/lab-2-weather-app-andrewbonnett">Github</a> for the files associated with this site.</span>
+      </div>
+    </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+  <script text="type/javascript" src="script.js">
+  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
