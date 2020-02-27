@@ -1,4 +1,4 @@
-# WeatherNow Web Application
+# weather_now
 
 JavaScript implementation of OpenWeatherMap API to build a weather web application.
 
