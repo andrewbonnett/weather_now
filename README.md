@@ -2,7 +2,7 @@
 
 JavaScript implementation of OpenWeatherMap API to build a weather web application.
 
-Summary:
+## Summary
 
 Creates an event handler whenever "Get Weather Now" button is clicked using the "getElementById" and "addEventListener" functions.
 
