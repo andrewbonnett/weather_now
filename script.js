@@ -5,7 +5,7 @@ document.getElementById("weatherSubmit").addEventListener("click", function(even
     return;
   console.log(value);
 
-  const url = "http://api.openweathermap.org/data/2.5/weather?q=" + value + ",US&units=imperial" + "&APPID=20981986fad2bf081c0dea13b5b126df";
+  const url = "https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=" + value + ",US&units=imperial" + "&APPID=20981986fad2bf081c0dea13b5b126df";
   fetch(url)
     .then(function(response) {
       return response.json();
@@ -62,7 +62,7 @@ document.getElementById("weatherSubmit").addEventListener("click", function(even
       document.getElementById("sunset").innerHTML = ret12;
     });
 
-    const url2 = "http://api.openweathermap.org/data/2.5/forecast?q=" + value + ",US&units=imperial" + "&APPID=20981986fad2bf081c0dea13b5b126df";
+    const url2 = "https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/forecast?q=" + value + ",US&units=imperial" + "&APPID=20981986fad2bf081c0dea13b5b126df";
     fetch(url2)
     .then(function(response) {
       return response.json();
